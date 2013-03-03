@@ -11,7 +11,7 @@ end
 
 group :production do
   gem 'pg'
-end
+endrok
 
 
 gem 'devise'
