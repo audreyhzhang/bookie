@@ -1,0 +1,9 @@
+<ul class='thumbnails'>
+    <% @oopsies.each do |oopsy| %>
+    <li class='span4'>
+        <%= link_to oopsies_show_path(id: oopsy.id) do %>
+            <%= image_tag oopsy.vampire.url %>
+        <% end %>
+    </li>
+    <% end %>
+</ul>

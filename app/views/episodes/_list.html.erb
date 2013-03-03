@@ -1,0 +1,10 @@
+<div class='navbar'>
+    <div class='navbar-inner'>
+        <%= link_to 'Episodes', root_url, class: 'brand' %>
+        <ul class='nav'>
+            <% @episodes.each do |episode| %>
+            <li><%= link_to episode.gay, oopsies_index_path %></li>
+            <% end %>
+        </ul>
+    </div>
+</div>
